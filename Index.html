@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio Link - Normal Package</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            color: #333333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 380px;
+            background: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 12px;
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Profile Text Section (No Image) */
+        .profile-title {
+            font-size: 22px;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 6px;
+        }
+
+        .profile-bio {
+            font-size: 13px;
+            color: #7f8c8d;
+            margin-bottom: 25px;
+            line-height: 1.4;
+        }
+
+        /* Simple Text-Only Link Buttons */
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .link-btn {
+            display: block;
+            padding: 12px 15px;
+            background-color: #ffffff;
+            color: #34495e;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+            border: 1px solid #bdc3c7;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+        }
+
+        .link-btn:hover {
+            background-color: #f8f9fa;
+            border-color: #7f8c8d;
+        }
+
+        .footer {
+            margin-top: 25px;
+            font-size: 11px;
+            color: #bdc3c7;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Text Only Header -->
+        <h1 class="profile-title">John Doe</h1>
+        <p class="profile-bio">Digital Creator | Content Specialist</p>
+
+        <!-- Pure Text Links (No Icons) -->
+        <div class="links">
+            <a href="#" class="link-btn">Facebook Profile</a>
+            <a href="#" class="link-btn">Instagram Page</a>
+            <a href="#" class="link-btn">YouTube Channel</a>
+            <a href="#" class="link-btn">WhatsApp Contact</a>
+            <a href="#" class="link-btn">Official Website</a>
+        </div>
+
+        <div class="footer">
+            <p>© Bio Link Basic Service</p>
+        </div>
+    </div>
+
+</body>
+</html>
